@@ -1,5 +1,6 @@
 import { createMaterialBottomTabNavigator } from "@react-navigation/material-bottom-tabs";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
+import { Login } from "../screens/contato";
 import { home } from "../screens/home";
 import { integrantes } from "../screens/integrantes";
 import { noticias } from "../screens/noticias";
@@ -49,6 +50,15 @@ export const RootNavigation = () => {
         options={{
           tabBarIcon: ({ color }) => (
             <MaterialCommunityIcons name="information-outline" color={color} size={26} />
+          ),
+        }}
+      />
+      <Tab.Screen
+        name="Contato"
+        component={Login}
+        options={{
+          tabBarIcon: ({ color }) => (
+            <MaterialCommunityIcons name="mail" color={color} size={26} />
           ),
         }}
       />
