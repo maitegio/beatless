@@ -10,7 +10,7 @@ export const integrantes = () => (
   <ScrollView>
     <View>
       <View>
-        <Text style={styles.titulo}>Albuns:</Text>
+        <Text style={styles.titulo}>Integrantes</Text>
       </View>
       <View style={styles.div}>
         <ImageBackground  style={styles.imagem}

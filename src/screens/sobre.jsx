@@ -8,7 +8,7 @@ export const sobre = () => (
       <Text style={styles.texto}>
         Os BEATLES são um fenomeno até hoje, os garotos de liverpool dominaram o
         mundo na decada de 60, os quatro, hoje com so dois vivos, tem suas
-        musicas eternizadas até hoje. Musicas como Hey Jude, Help e Let it be
+        musicas eternizadas. Musicas como Hey Jude, Help e Let it be
         são alguns de seus sucessos
       </Text>
 
